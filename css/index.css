@@ -1,0 +1,243 @@
+html,body {
+	width: 100%;
+}
+
+
+.ltm{
+	width: 100%;
+	height: 100%;
+}
+/* 导航 */
+.ltm-search {
+	width: 100%;
+	height: 45px;
+	background-color: #006699;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.ltm-search span{
+	display: inline-block;
+	font-size: 21px;
+	line-height: 45px;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+}
+/* .ltm-search icon{
+	background-image: url('../images/jd-sprites.png');
+	position: absolute;
+	width:47px;
+	height: 40px;
+	display: block;
+	background-position: -119px -219px;
+} */
+/* banner图 */
+.ltm-content{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 20px;
+}
+.ltm-content .banner{
+	width: 100%;
+	height: 100%;
+	margin-top: 45px;
+
+}
+.ltm-content .banner img{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+}
+/* 鞋 */
+.ltm-content .xie{
+	width: 100%;
+	height: 250px;
+}
+.ltm-content ul{
+	width: 100%;
+	height: 100%;
+	padding: 0 5%;
+}
+.ltm-content ul li{
+	width: 33.3%;
+	float: left;
+}
+.ltm-content ul li img{
+	width: 100%;
+}
+
+
+
+/* 鞋厨必备 */
+.mast{
+	width: 100%;
+	height: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+.mast .mast_l_t{
+	height: 50%;
+	width: 65%;
+	float: left;
+}
+.mast .mast_l_t img{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.mast .mast_l_b{
+	width: 65%;
+	height: 50%;
+
+}
+.mast .mast_l_b img{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.mast .mast_r{
+	width: 35%;
+	height: 100%;
+	float: right;
+}
+.mast .mast_r img{
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+/* 品牌专区 */
+.nike{
+	width: 100%;
+	height: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+
+}
+.nike>img{
+width: 100%;
+}
+.nike ul li{
+	float: left;
+	width: 22%;
+
+}
+
+
+/* 运动生活专区 */
+.live{
+	width: 100%;
+	height: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+.live>img{
+	width: 100%;
+}
+
+.live ul{
+	width: 100%;
+	height: 100%;
+	margin-left: -25px;
+}
+
+
+.live ul li{
+	width: 47.3%;
+	height: 50%;
+	border: 2px solid #ccc;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.live ul li img{
+	width: 80%;
+}
+.live ul li p{
+	font-size: 18px;
+	color: #aaa;
+}
+.live ul li strong{
+	display: inline-block;
+	font-size: 18px;
+	color: red;
+	margin-top: 10px;
+}
+
+.live ul li s{
+	font-size: 12px;
+	color: #ccc;
+}
+
+.live ul li div{
+	width: 50%;
+	height: 30px;
+	color: #fff;
+	background-color: blue;
+	text-align: center;
+	line-height: 30px;
+	font-weight: 700;
+	margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+.ltm-toolbar {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	height: 65px;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	box-sizing: border-box;
+}
+.ltm-toolbar ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.ltm-toolbar ul li{
+	flex: 1;
+	height: 100%;
+	float: left;
+}
+.ltm-toolbar a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.ltm-toolbar a img{
+	width: auto;
+	height: 65px;
+}
